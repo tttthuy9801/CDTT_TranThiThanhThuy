@@ -1,0 +1,45 @@
+.megamenu *{
+     margin:0;
+     padding:0
+}
+.megamenu ul{
+    width:100%;
+  
+}
+.megamenu>ul>li>a:before{
+    content:"\2042"
+   
+}
+.megamenu a{
+display: block;
+text-decoration: none;
+color:#444;
+padding:5px;
+}
+.megamenu a:hover{
+    color:orange;
+    background-color: #eee;
+    
+}
+.megamenu>ul>li>ul{
+    position: absolute;
+    left: 210px;
+    top:0;
+    list-style-type:none;
+    display: none;
+    background-color:#dddd;
+	z-index:1000;
+}
+.megamenu>ul>li>ul>li>a{
+background-color: bisque;
+}
+.megamenu>ul>li:hover>ul{
+display:block;
+}
+.megamenu>ul>li>ul>li>ul{
+    list-style-type:none;
+   
+}
+.megamenu>ul>li{
+    position: relative;
+}
