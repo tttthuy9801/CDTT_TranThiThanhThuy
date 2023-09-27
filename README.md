@@ -4,7 +4,7 @@ Thông tin sinh viên: Trần Thị Thanh Thủy
 
 Thông tin đề tại: jewelry accessories store
 
-Công nghệ: Javacrip, React, NodeJS
+Công nghệ: PHP Lavarel
 
 # Kế hoạch: 
 Tuần 1: Ngày bắt đầu ngày 13/09 kết thúc 19/09 (push) 
